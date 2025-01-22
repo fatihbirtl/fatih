@@ -25,7 +25,7 @@ export default function Home() {
     }
   }, [])
   return (
-    <div className="lg:grid lg:grid-cols-2">
+    <div className="lg:gridlg:grid-cols-2">
       {state !== 0 && (
         <div className="fixed top-2 left-[50%] w-12 h-12 rounded-full -ml-6 p-4 bg-black text-white mx-auto right-auto z-50 font-semibold tracking-tighter border-emerald-700 shadow-2xl flex items-center justify-center">
           {state}
