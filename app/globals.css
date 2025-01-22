@@ -146,3 +146,14 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.menu1 > ul:nth-child(1) {
+  @apply !ml-0 !border-0 !pl-0;
+}
+
+@layer utilities {
+  .custom-ease {
+    transition: all 0.6s ease;
+    transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  }
+}
