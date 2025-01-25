@@ -15,7 +15,7 @@ export const folderStructure = {
           type: "file",
         },
         {
-          name: "login",
+          name: "signin",
           type: "folder",
           children: [
             {
@@ -25,7 +25,7 @@ export const folderStructure = {
           ],
         },
         {
-          name: "register",
+          name: "signup",
           type: "folder",
           children: [
             {
